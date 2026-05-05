@@ -9,7 +9,7 @@ Original file is located at
 
 import random
 
-# Clase base
+# Clase base mi so
 class Usuario:
     def __init__(self, nombre, saldo):
         self.nombre = nombre
@@ -66,7 +66,7 @@ class Usuario:
         return total
 
 
-# Clase hija (herencia + polimorfismo)
+# Clase hija bb (herencia + polimorfismo)
 class UsuarioPremium(Usuario):
     def calcular_costo(self, km):
         return km * 0.50 * 0.80  # 20% descuento
@@ -82,7 +82,7 @@ class UsuarioPremium(Usuario):
             print(f"Nombre: {self.nombre} | Saldo: ${self.saldo:.2f}")
 
 
-# MAIN con menú interactivo
+# MAIN con menú interactivo exonereme jenner porfa
 def main():
     nombre = input("Nombre: ")
     tipo = int(input("Tipo (1=Normal, 2=Premium): "))
@@ -131,5 +131,5 @@ def main():
             print("Opcion invalida")
 
 
-# Ejecutar programa
+# Ejecutar programa broo
 main()
